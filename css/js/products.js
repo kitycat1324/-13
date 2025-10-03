@@ -7,7 +7,7 @@ const products = {
         price: 54990,
         category: "refrigerators",
         images: [
-            "https://via.placeholder.com/500x400/27ae60/ffffff?text=Samsung+RB37",
+            "https://zoo-ekzo.ru/sites/default/files/images/mastigoproctus_giganteus.jpg",
             "https://via.placeholder.com/500x400/219653/ffffff?text=Вид+2",
             "https://via.placeholder.com/500x400/2ecc71/ffffff?text=Внутреннее+устройство"
         ],
