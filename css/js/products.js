@@ -7,7 +7,7 @@ const products = {
         price: 54990,
         category: "refrigerators",
         images: [
-            "https://zoo-ekzo.ru/sites/default/files/images/mastigoproctus_giganteus.jpg",
+            "/images/asa.jpeg",
             "https://via.placeholder.com/500x400/219653/ffffff?text=Вид+2",
             "https://via.placeholder.com/500x400/2ecc71/ffffff?text=Внутреннее+устройство"
         ],
