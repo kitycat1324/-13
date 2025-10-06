@@ -8,8 +8,8 @@ const products = {
         category: "refrigerators",
         images: [
             "/images/asa.jpeg",
-            "https://via.placeholder.com/500x400/219653/ffffff?text=Вид+2",
-            "https://via.placeholder.com/500x400/2ecc71/ffffff?text=Внутреннее+устройство"
+            "/images/holod.jpg",
+            "/images/holod1.webp"
         ],
         description: "Современный холодильник с системой No Frost и энергопотреблением класса A+.",
         features: [
@@ -28,9 +28,9 @@ const products = {
         price: 89990,
         category: "refrigerators",
         images: [
-            "https://via.placeholder.com/500x400/27ae60/ffffff?text=LG+Side+by+Side",
-            "https://via.placeholder.com/500x400/219653/ffffff?text=Вид+2",
-            "https://via.placeholder.com/500x400/2ecc71/ffffff?text=Диспенсер"
+            "/images/holodos.webp",
+            "/images/holodos2.jpg",
+            "/images/holodos3.jpg"
         ],
         description: "Просторный холодильник Side by Side с двойной системой No Frost.",
         features: [
@@ -49,9 +49,9 @@ const products = {
         price: 76490,
         category: "refrigerators",
         images: [
-            "https://via.placeholder.com/500x400/27ae60/ffffff?text=Bosch+MultiDoor",
-            "https://via.placeholder.com/500x400/219653/ffffff?text=Вид+2",
-            "https://via.placeholder.com/500x400/2ecc71/ffffff?text=Внутреннее+устройство"
+            "/images/holodil.webp",
+            "/images/holodil2.webp",
+            "/images/holodil3.jpeg"
         ],
         description: "Инновационный многодверный холодильник с технологией VitaFresh.",
         features: [
@@ -72,9 +72,9 @@ const products = {
         price: 24990,
         category: "washing-machines",
         images: [
-            "https://via.placeholder.com/500x400/3498db/ffffff?text=Indesit",
-            "https://via.placeholder.com/500x400/2980b9/ffffff?text=Панель+управления",
-            "https://via.placeholder.com/500x400/1f618d/ffffff?text=Внутренний+барабан"
+            "/images/stirka.jpg",
+            "/images/stirka2.webp",
+            "/images/stirka3.jpg"
         ],
         description: "Надежная и экономичная стиральная машина с фронтальной загрузкой.",
         features: [
@@ -93,9 +93,9 @@ const products = {
         price: 49990,
         category: "washing-machines",
         images: [
-            "https://via.placeholder.com/500x400/3498db/ffffff?text=LG+С+сушкой",
-            "https://via.placeholder.com/500x400/2980b9/ffffff?text=Панель+управления",
-            "https://via.placeholder.com/500x400/1f618d/ffffff?text=Технология+Steam"
+            "/images/stik1.webp",
+            "/images/stik2.jpeg",
+            "images/stik.png"
         ],
         description: "Стиральная машина с функцией сушки и технологией Steam.",
         features: [
@@ -114,9 +114,9 @@ const products = {
         price: 67990,
         category: "washing-machines",
         images: [
-            "https://via.placeholder.com/500x400/3498db/ffffff?text=Bosch+Serie+6",
-            "https://via.placeholder.com/500x400/2980b9/ffffff?text=ЭкоПульс",
-            "https://via.placeholder.com/500x400/1f618d/ffffff?text=AntiVibration"
+            "/images/str.png",
+            "/images/str2.jpg",
+            "/images/str3.jpg"
         ],
         description: "Инновационная стиральная машина с технологией EcoSilence Drive.",
         features: [
