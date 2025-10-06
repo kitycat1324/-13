@@ -95,7 +95,7 @@ const products = {
         images: [
             "/images/stik1.webp",
             "/images/stik2.jpeg",
-            "images/stik.png"
+            "/images/stik.png"
         ],
         description: "Стиральная машина с функцией сушки и технологией Steam.",
         features: [
@@ -133,13 +133,13 @@ const products = {
     // Телевизоры (7-9)
     7: {
         id: 7,
-        name: "Телевизор Samsung QLED 55\"",
+        name: "Телевизор Samsung QLED 55",
         price: 89990,
         category: "tvs",
         images: [
-            "https://via.placeholder.com/500x400/e74c3c/ffffff?text=Samsung+QLED+55",
-            "https://via.placeholder.com/500x400/c0392b/ffffff?text=Smart+TV",
-            "https://via.placeholder.com/500x400/922b21/ffffff?text=Тонкий+дизайн"
+            "/images/tel2.jpg",
+            "/images/tel3.jpeg",
+            "/images/tel.webp"
         ],
         description: "QLED телевизор с технологией квантовых точек и 4K разрешением.",
         features: [
@@ -154,13 +154,13 @@ const products = {
     },
     8: {
         id: 8,
-        name: "Телевизор LG OLED 65\"",
+        name: "Телевизор LG OLED 65",
         price: 129990,
         category: "tvs",
         images: [
-            "https://via.placeholder.com/500x400/e74c3c/ffffff?text=LG+OLED+65",
-            "https://via.placeholder.com/500x400/c0392b/ffffff?text=OLED+технология",
-            "https://via.placeholder.com/500x400/922b21/ffffff?text=webOS"
+            "/images/telev.avif",
+            "/images/telev2.webp",
+            "/images/telev3.avif"
         ],
         description: "OLED телевизор с идеальным черным цветом и бесконечной контрастностью.",
         features: [
@@ -179,9 +179,9 @@ const products = {
         price: 54990,
         category: "tvs",
         images: [
-            "https://via.placeholder.com/500x400/e74c3c/ffffff?text=Sony+Bravia+43",
-            "https://via.placeholder.com/500x400/c0392b/ffffff?text=TRILUMINOS",
-            "https://via.placeholder.com/500x400/922b21/ffffff?text=X1+Processor"
+            "/images/televisor.jpg",
+            "/images/televisor2.jpg",
+            "/images/televisor3.jpg"
         ],
         description: "LED телевизор с технологией TRILUMINOS и процессором X1.",
         features: [
@@ -202,9 +202,9 @@ const products = {
         price: 8990,
         category: "kitchen-utensils",
         images: [
-            "https://via.placeholder.com/500x400/9b59b6/ffffff?text=Philips+Blender",
-            "https://via.placeholder.com/500x400/8e44ad/ffffff?text=Мощный+мотор",
-            "https://via.placeholder.com/500x400/71368a/ffffff?text=Насадки"
+            "/images/blen.webp",
+            "/images/blen2.webp",
+            "/images/blen3.webp"
         ],
         description: "Мощный блендер с технологией ProBlend и 6 скоростями.",
         features: [
@@ -223,9 +223,9 @@ const products = {
         price: 4590,
         category: "kitchen-utensils",
         images: [
-            "https://via.placeholder.com/500x400/9b59b6/ffffff?text=Bosch+Mixer",
-            "https://via.placeholder.com/500x400/8e44ad/ffffff?text=Венчики",
-            "https://via.placeholder.com/500x400/71368a/ffffff?text=Эргономичный+дизайн"
+            "/images/mic.jpg",
+            "/images/mic2.jpg",
+            "/images/mic3.webp"
         ],
         description: "Ручной миксер с 5 скоростями и функцией турбо.",
         features: [
@@ -244,9 +244,9 @@ const products = {
         price: 12990,
         category: "kitchen-utensils",
         images: [
-            "https://via.placeholder.com/500x400/9b59b6/ffffff?text=Tefal+Grill",
-            "https://via.placeholder.com/500x400/8e44ad/ffffff?text=Антипригарное+покрытие",
-            "https://via.placeholder.com/500x400/71368a/ffffff?text=Регулируемый+нагрев"
+            "/images/gril2.jpg",
+            "/images/gril3.jpg",
+            "/images/gril.jpg"
         ],
         description: "Электрогриль с антипригарным покрытием и регулируемой температурой.",
         features: [
@@ -267,9 +267,9 @@ const products = {
         price: 18990,
         category: "sinks",
         images: [
-            "https://via.placeholder.com/500x400/f39c12/ffffff?text=Blanco+Farga",
-            "https://via.placeholder.com/500x400/e67e22/ffffff?text=Грандионовое+покрытие",
-            "https://via.placeholder.com/500x400/d35400/ffffff?text=Дополнительная+чаша"
+            "/images/moika.jpg",
+            "/images/moika2.jpg",
+            "/images/moika3.jpg"
         ],
         description: "Кухонная мойка из нержавеющей стали с антибактериальным покрытием.",
         features: [
@@ -288,9 +288,9 @@ const products = {
         price: 23990,
         category: "sinks",
         images: [
-            "https://via.placeholder.com/500x400/f39c12/ffffff?text=Franke+Rondo",
-            "https://via.placeholder.com/500x400/e67e22/ffffff?text=Грандионовое+покрытие",
-            "https://via.placeholder.com/500x400/d35400/ffffff?text=Эргономичный+дизайн"
+            "/images/moikaq2.jpg",
+            "/images/moikaq.png",
+            "/images/moikaq3.jpg"
         ],
         description: "Грандионовая мойка с повышенной устойчивостью к повреждениям.",
         features: [
@@ -309,9 +309,9 @@ const products = {
         price: 15990,
         category: "sinks",
         images: [
-            "https://via.placeholder.com/500x400/f39c12/ffffff?text=Teka+TRS",
-            "https://via.placeholder.com/500x400/e67e22/ffffff?text=Встроенная+сушилка",
-            "https://via.placeholder.com/500x400/d35400/ffffff?text=Дополнительный+поддон"
+            "/images/racvina2.jpg",
+            "/images/racvina3.jpg",
+            "/images/racvina.webp"
         ],
         description: "Мойка со встроенной сушилкой для посуды.",
         features: [
@@ -332,9 +332,9 @@ const products = {
         price: 8990,
         category: "faucets",
         images: [
-            "https://via.placeholder.com/500x400/34495e/ffffff?text=Grohe+Eurosmart",
-            "https://via.placeholder.com/500x400/2c3e50/ffffff?text=Керамический+картридж",
-            "https://via.placeholder.com/500x400/1c2833/ffffff?text=Эргономичный+излив"
+            "/images/kran.jpg",
+            "/images/kran2.jpg",
+            "/images/kran3.jpg"
         ],
         description: "Однорычажный смеситель с керамическим картриджем.",
         features: [
@@ -353,9 +353,9 @@ const products = {
         price: 12990,
         category: "faucets",
         images: [
-            "https://via.placeholder.com/500x400/34495e/ffffff?text=Hansa+Finesse",
-            "https://via.placeholder.com/500x400/2c3e50/ffffff?text=Выдвижной+излив",
-            "https://via.placeholder.com/500x400/1c2833/ffffff?text=Аэратор"
+            "/images/smesi2.webp",
+            "/images/smesi.webp",
+            "/images/smesi3.webp"
         ],
         description: "Смеситель с выдвижным изливом и функцией душ.",
         features: [
@@ -374,9 +374,9 @@ const products = {
         price: 15990,
         category: "faucets",
         images: [
-            "https://via.placeholder.com/500x400/34495e/ffffff?text=Blanco+Subline",
-            "https://via.placeholder.com/500x400/2c3e50/ffffff?text=Бесконтактный+сенсор",
-            "https://via.placeholder.com/500x400/1c2833/ffffff?text=Термостат"
+            "/images/kranic.jpg",
+            "/images/kranic2.jpg",
+            "/images/kranic3.webp"
         ],
         description: "Бесконтактный смеситель с сенсорным управлением.",
         features: [
@@ -397,9 +397,9 @@ const products = {
         price: 39990,
         category: "hair-care",
         images: [
-            "https://via.placeholder.com/500x400/e91e63/ffffff?text=Dyson+Supersonic",
-            "https://via.placeholder.com/500x400/ad1457/ffffff?text=Технология+Air+Multiplier",
-            "https://via.placeholder.com/500x400/880e4f/ffffff?text=Насадки"
+            "/images/dayson3.webp",
+            "/images/dayson2.jpg",
+            "/images/dayson.webp"
         ],
         description: "Инновационный фен с технологией Air Multiplier.",
         features: [
@@ -418,9 +418,9 @@ const products = {
         price: 14990,
         category: "hair-care",
         images: [
-            "https://via.placeholder.com/500x400/e91e63/ffffff?text=GHD+Platinum",
-            "https://via.placeholder.com/500x400/ad1457/ffffff?text=Ультра-гладкие+пластины",
-            "https://via.placeholder.com/500x400/880e4f/ffffff?text=Технология+Tri-Zone"
+            "/images/primo2.jpg",
+            "/images/primo.jpg",
+            "/images/primo3.jpeg"
         ],
         description: "Профессиональный выпрямитель с технологией Tri-Zone.",
         features: [
@@ -439,9 +439,9 @@ const products = {
         price: 5990,
         category: "hair-care",
         images: [
-            "https://via.placeholder.com/500x400/e91e63/ffffff?text=Remington+CI95E",
-            "https://via.placeholder.com/500x400/ad1457/ffffff?text=Керамическое+покрытие",
-            "https://via.placeholder.com/500x400/880e4f/ffffff?text=Автоматическое+вращение"
+            "/images/hip3.avif",
+            "/images/hip2.avif",
+            "/images/hip.avif"
         ],
         description: "Автоматические щипцы для завивки с керамическим покрытием.",
         features: [
@@ -462,9 +462,9 @@ const products = {
         price: 1290,
         category: "antennas",
         images: [
-            "https://via.placeholder.com/500x400/795548/ffffff?text=Selenga+111A",
-            "https://via.placeholder.com/500x400/5d4037/ffffff?text=Усилитель+сигнала",
-            "https://via.placeholder.com/500x400/4e342e/ffffff?text=Компактный+дизайн"
+            "/images/antena3.jpg",
+            "/images/antena2.jpg",
+            "/images/antena.jpg"
         ],
         description: "Комнатная антенна с усилителем для приема цифрового ТВ.",
         features: [
@@ -483,9 +483,9 @@ const products = {
         price: 3490,
         category: "antennas",
         images: [
-            "https://via.placeholder.com/500x400/795548/ffffff?text=Locus+Meridian",
-            "https://via.placeholder.com/500x400/5d4037/ffffff?text=Алюминиевые+элементы",
-            "https://via.placeholder.com/500x400/4e342e/ffffff?text=Ветроустойчивая+конструкция"
+            "/images/anta.jpg",
+            "/images/anta2.png",
+            "/images/anta3.png"
         ],
         description: "Уличная антенна для приема цифрового и аналогового ТВ.",
         features: [
@@ -504,9 +504,9 @@ const products = {
         price: 4590,
         category: "antennas",
         images: [
-            "https://via.placeholder.com/500x400/795548/ffffff?text=Супрал+0.9м",
-            "https://via.placeholder.com/500x400/5d4037/ffffff?text=Стальная+конструкция",
-            "https://via.placeholder.com/500x400/4e342e/ffffff?text=Оцинкованное+покрытие"
+            "/images/sput.jpg",
+            "/images/sput2.webp",
+            "/images/sput3.webp"
         ],
         description: "Спутниковая антенна для приема телевидения Триколор и НТВ+.",
         features: [
