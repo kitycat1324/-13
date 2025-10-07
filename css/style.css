@@ -715,5 +715,13 @@ footer {
     
 }
 
+.hero-animation {
+    text-align: center;
+}
 
-
+.hero-animation img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+}
