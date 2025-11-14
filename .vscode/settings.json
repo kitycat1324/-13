@@ -1,2 +1,32 @@
 {
+    "database-client.connections": [
+        {
+            "name": "Ofelia Shop Database",
+            "type": "mysql",
+            "host": "localhost",
+            "port": 3306,
+            "user": "root",
+            "password": "your_password",
+            "database": "ofelia_shop"
+        }
+    ],
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Ofelia Shop",
+            "database": "ofelia_shop",
+            "username": "root",
+            "password": "your_password"
+        }
+    ],
+    "dataworkspace.excludedProjects": [
+        "1234/1234.sqlproj",
+        "Ofelia/Qwer/Qwer.sqlproj"
+    ]
 }
