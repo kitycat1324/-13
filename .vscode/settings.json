@@ -28,5 +28,6 @@
     "dataworkspace.excludedProjects": [
         "1234/1234.sqlproj",
         "Ofelia/Qwer/Qwer.sqlproj"
-    ]
+    ],
+    "dotnet.defaultSolution": "WebApplication1.sln"
 }
